@@ -11,6 +11,7 @@ For this exercise follow the instructions below.
 7. write a proper Readme.Md to explain your choices and the process.
 
 #My Processes and Choices
+
 I forked the repo for my firststep and launched an ec2 ubuntu instance on aws after which deployed jenkins into docker container on the Ubuntu ec2 instance.
 ![ec2 dashboard](https://user-images.githubusercontent.com/78386380/173275387-c90702e9-c190-4f8c-81a4-4935d786ba04.PNG)
 To do so, i pull docker image using "docker pull jenkins/jenkins" ![image](https://user-images.githubusercontent.com/78386380/173279004-fa5fc23f-d076-4601-a649-ab86e3ffd9ed.png)
