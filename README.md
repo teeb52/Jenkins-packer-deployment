@@ -24,4 +24,6 @@ Steps 3 & 4:
 I baked the custom AMI(Ubuntu source type) with hashicorp parker by firstly authenticating my IAM usercredentials using secret access key and access key id then created a directory named 'packer_techpet'. After moving into 'packer_techpet', i created a packer config file 'aws-ubuntu.pkr.hcl' with various blocks of Hashicorp Configuration Language code, defining the image build and how to be built. After successfully creating the packer config file, i ran "packer init ." command to initialize the packer configuration then the "packer fmt && packer validate" to format and validate the file. Finally , i ran the build command "packer build aws-ubuntu.pkr.hcl" which created, started and shut-down a temporary ec2 instance and deployed the image to my ec2 region along with the snapshot.
 ![image](https://user-images.githubusercontent.com/78386380/173683308-cf330fd0-1ca8-41eb-840c-788e04fb4885.png)
 
+![image](https://user-images.githubusercontent.com/78386380/173686318-ce1c4374-0660-4dfd-b490-b7545027b9d0.png)
+
 ![image](https://user-images.githubusercontent.com/78386380/173683659-5559fd90-77fb-4296-93b3-60ff303e1220.png)
